@@ -9,11 +9,11 @@ export function Header() {
             </Pressable>
 
             <View className="flex flex-col items-center justify-center">
-                <Text>Localização</Text>
+                <Text className="text-center text-sm text-slate-800">Localização</Text>
 
                 <View className="flex-row items-center justify-center gap-1">
                     <Feather name="map-pin" size={14} color="#FF0000" />
-                    <Text className="text-lg">Piracicaba</Text>
+                    <Text className="text-lg font-bold">Piracicaba</Text>
                 </View>
             </View>
 
