@@ -14,7 +14,7 @@ export function Section({ name, size, label, action }: Props) {
                 {name}
             </Text>
 
-            <Pressable>
+            <Pressable onPress={action}>
                 <Text>{label}</Text>
             </Pressable>
         </View>
