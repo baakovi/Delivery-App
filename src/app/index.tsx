@@ -4,6 +4,8 @@ import { Banner } from "../components/banner";
 import { Search } from "../components/search";
 import { Section } from "../components/section";
 import { TrendingFoods } from "../components/trending";
+import { Restaurants } from "../components/restaurants";
+import { RestaurantVerticalList } from "../components/list";
 // Quando a importação é de um arquivo com 'export default', não é necessário o uso de chaves {}, caso contrário, se for apenas 'export function', é necessário
 
 import Constants from 'expo-constants'
@@ -32,6 +34,24 @@ export default function Index() {
         />
 
         <TrendingFoods />
+
+        <Section 
+          name="Famosos no DevFood"
+          size="text-xl"
+          label="Veja todos"
+          action={ () => console.log("Clicou no famosos") }
+        />
+
+        <Restaurants/>
+
+        <Section 
+          name="Restaurantes"
+          size="text-xl"
+          label="Veja todos"
+          action={ () => console.log("Clicou no restaurantes") }
+        />
+
+        <RestaurantVerticalList/>
 
     </ScrollView>
   );
