@@ -50,3 +50,13 @@ Join our community of developers creating universal apps.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 
 [Json Server](https://www.npmjs.com/package/json-server)
+
+###
+###
+Para rodar use:
+
+```bash
+ npx json-server db.json
+
+ npx expo start
+```
